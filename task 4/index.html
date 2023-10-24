@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Fill in your information</h1>
+    </header>
+    <section>
+        <div class="field-sets">
+            <fieldset>
+                <legend>Form</legend>
+
+                <form>
+                    <div>
+                        <div class="text-input">
+                            <label for="fname">First name:</label>
+                            <br>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+    
+                        <div class="text-input">
+                            <label for="lname">Last name:</label>
+                            <br>
+                            <input type="text" id="lname" name="lname">    
+                        </div>
+    
+                        <div class="text-input">
+                            <label for="email">Email:</label>
+                            <br>
+                            <input type="text" id="email" name="email">    
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <div class="radio-input">
+                            <h4>Your Gender</h4>
+                            <input type="radio" name="gender" id="radioMale">
+                            <input type="radio" name="gender" id="radioFemale">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h4>Favorite Subject</h4>
+                        <div class="checkBox-input">
+                            <input type="checkbox" id="b1"  name="C++">
+                            <label for="b1">C++</label>
+                            <input type="checkbox" id="b2"  name="C">
+                            <label for="b2">C</label>
+                            <input type="checkbox" id="b3"  name="PHP">
+                            <label for="b3">PHP</label>
+                            <input type="checkbox" id="b4"  name="Java">
+                            <label for="b4">Java</label>
+                            <input type="checkbox" id="b5"  name="Python">
+                            <label for="b5">Python</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Your City</h4>
+                        <div class="selectList">
+                            <label for="textarea">City:</label>
+                            <select name="myCity" id="list-cties">
+                                <option value="amman">Amman</option>
+                                <option value="salt">Salt</option>
+                                <option value="irbid">Irbid</option>
+                            </select>    
+                        </div>
+                    </div>
+    
+                    <div>
+                        <p>Write About yourself:</p>
+                        
+                        <textarea id="textarea" cols="50" rows="5" maxlength="30"></textarea>
+                    </div>
+    
+                    <input type="button" value="Submit">
+    
+    
+
+                </form>
+                
+            </fieldset>
+        </div>
+        
+
+    </section>
+    <br><br><br><br><br><br><br>
+
+    <div class="socendForm">
+        <form action="">
+            <table>
+              
+                    <tr>
+                        <td><label for="name:">Name:</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><input type="text" id="address"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="city">City:</label></td>
+                        <td><input type="text" id="city"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="state">State:</label></td>
+                        <td><input type="text" id="state"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="zip">Zip:</label></td>
+                        <td><input type="text" id="zip"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Magazine:</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">A</option>
+                                <option value="">B</option>
+                                <option value="">C</option>
+                                <option value="">D</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Subscription:</td>
+                        <td>
+                            <input type="radio" name="ar" id="year1">
+                            <label for="year1">1 year</label>
+                            <input type="radio" name="ar" id="year2">
+                            <label for="year2">2 year</label>
+                        </td>
+                    </tr>
+
+
+           
+            </table>
+
+            <input type="button" value="Send Your Order">
+        </form>
+    </div>
+    
+    
+</body>
+</html>
