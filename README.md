@@ -1,2 +1,2 @@
 # HTML-OCS-FPE
-# This repository is for HTML-related tasks
+This repository is for HTML-related tasks
